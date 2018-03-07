@@ -1,0 +1,1175 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#IsLocatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#IsLocatedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Zones"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Raids"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#IsRequiredFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#IsRequiredFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Attunement_Requirements"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Raids"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#ReputationRequired -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#ReputationRequired">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Attunement_Requirements"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Reputation_Faction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#isPartOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Raids"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Reputation_Faction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Anetheron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Anetheron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Archimonde -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Archimonde">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Attumen_the_Huntsman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Attumen_the_Huntsman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Attunement_Requirements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Attunement_Requirements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Independent_entity"/>
+        <rdfs:comment>Many of the Raids in the Burning Crusade have detailed steps to be able to enter the zone</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Auchenai_Crypts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Auchenai_Crypts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Lower_City"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Azeroth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Azeroth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Zones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Azgalor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Azgalor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Morass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Morass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Keepers_Of_Time"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(KZ)"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Old_Hillsbrad_Foothills"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Blades_Edge_Mountains -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Blades_Edge_Mountains">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Outlands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Caverns_of_Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Caverns_of_Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Azeroth"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Cenarion_Expedition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Cenarion_Expedition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Reputation_Faction"/>
+        <rdfs:comment>Located in Zangarmarsh</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Chess_Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Chess_Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Curator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Curator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Deadwind_Pass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Deadwind_Pass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Azeroth"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Fathom-Lord_Karathress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Fathom-Lord_Karathress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul_The_Dragonkiller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul_The_Dragonkiller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(SSC)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul_the_Dragonkiller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul_the_Dragonkiller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul&apos;s_Lair(25)"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#High_King_Maulgar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gurtogg_Bloodboil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gurtogg_Bloodboil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Hellfire_Peninsula -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Hellfire_Peninsula">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Outlands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Hellfire_Ramparts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Hellfire_Ramparts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Honor_Hold/Thrallmar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#High_Astromancer_Solarian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#High_Astromancer_Solarian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#High_King_Maulgar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#High_King_Maulgar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul&apos;s_Lair(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Hydross_the_Unstable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Hydross_the_Unstable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Illidan_Stormrage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Illidan_Stormrage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Independent_entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Independent_entity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Burning_Crusade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Keepers_Of_Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Keepers_Of_Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Reputation_Faction"/>
+        <rdfs:comment>Located in the Caverns of Time in Tanaris</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Leotheras_the_Blind -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Leotheras_the_Blind">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Lower_City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Lower_City">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Reputation_Faction"/>
+        <rdfs:comment>Located in Shatrath City in Terrokar Forest</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon&apos;s_Lair(25)"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(TK)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Maiden_of_Virtue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Maiden_of_Virtue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mana_Tombs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mana_Tombs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Lower_City"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Moroes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Moroes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Morogrim_Tidewalker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Morogrim_Tidewalker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mother_Shahraz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mother_Shahraz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Netherspite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Netherspite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Netherstorm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Netherstorm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Outlands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Old_Hillsbrad_Foothills -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Old_Hillsbrad_Foothills">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Keepers_Of_Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Opera_Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Opera_Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Outlands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Outlands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Zones"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Prince_Malchezaar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Prince_Malchezaar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Rage_Winterchill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Rage_Winterchill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Raids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Raids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Independent_entity"/>
+        <rdfs:comment>This is the list of raids in the Burning Crusade, the bracketed number, ex:(25) refers to the number of people required for the raid, 25 people, the Tier lists refer to the quality of gear that can be found within the raids, with tier 6 being the highest possible</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Reliquary_of_Souls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Reliquary_of_Souls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Reputation_Faction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Reputation_Faction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Independent_entity"/>
+        <rdfs:comment>Many of the Raids require the ability to have access to Heroic Dungeons which can only be done by achieving a reputation of Revered with the Faction for the specefic dungeon</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Servants_Quarters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Servants_Quarters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Sethekk_Halls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Sethekk_Halls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Lower_City"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shade_of_Akama -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shade_of_Akama">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shade_of_Aran -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shade_of_Aran">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shadow_Labyrinth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shadow_Labyrinth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Lower_City"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(KZ)"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Steamvaults"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shadowmoon_Valley -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shadowmoon_Valley">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Outlands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Supremus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Supremus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Teron_Gorefiend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Teron_Gorefiend">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Terrestian_Illhoof -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Terrestian_Illhoof">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Terrokar_Forrest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Terrokar_Forrest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Outlands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Arcatraz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Arcatraz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(KZ)"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Sha&apos;tar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Blood_Furnace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Blood_Furnace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Honor_Hold/Thrallmar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Botanica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Botanica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Sha&apos;tar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Burning_Crusade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Burning_Crusade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Illidari_Council -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Illidari_Council">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Lurker_Below -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Lurker_Below">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Mechanar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Mechanar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Sha&apos;tar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Shattered_Halls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Shattered_Halls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Honor_Hold/Thrallmar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Slave_Pens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Slave_Pens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Cenarion_Expedition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Steamvaults -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Steamvaults">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Cenarion_Expedition"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(KZ)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Underbog -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Underbog">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Cenarion_Expedition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Raids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Raids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Raids"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Void_Reaver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Void_Reaver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Zangarmarsh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Zangarmarsh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Outlands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Zones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Zones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Independent_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#A&apos;lar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#A&apos;lar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Al&apos;ar(TK) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Al&apos;ar(TK)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(BT)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(25) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(25)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_6"/>
+        <rdfs:comment>Located in Shadowmoon Valler, contains Tier 6 gear</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(BT) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(BT)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Attunement_Requirements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Fathom-Lord_Karathress(SSC) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Fathom-Lord_Karathress(SSC)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(BT)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul&apos;s_Lair(25) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul&apos;s_Lair(25)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_4"/>
+        <rdfs:comment>Located in Blades Edge Mountains, contains tier 4 gear</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#High_Warlord_Naj&apos;entus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#High_Warlord_Naj&apos;entus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Honor_Hold/Thrallmar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Honor_Hold/Thrallmar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Reputation_Faction"/>
+        <rdfs:comment>Located in Hellfire Peninsula</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Kael&apos;thas_Sunstrider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Kael&apos;thas_Sunstrider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_4"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon&apos;s_Lair(25)"/>
+        <rdfs:comment>Located in Deadwind Pass, contains tier 4 gear</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(KZ) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(KZ)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Attunement_Requirements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Kaz&apos;rogal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Kaz&apos;rogal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(25)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Lady_Vashj(SSC) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Lady_Vashj(SSC)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(MH)"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Prince_Kael&apos;Thas(TK)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon&apos;s_Lair(25) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon&apos;s_Lair(25)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_4"/>
+        <rdfs:comment>Located in Hellfire Peninsula, contains tier 4 gear</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(25) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(25)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_6"/>
+        <rdfs:comment>Located in the Caverns of Time in Tanaris, contains tier 6 gear</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(MH) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(MH)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Attunement_Requirements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Nightbane(KZ) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Nightbane(KZ)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(SSC)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Prince_Kael&apos;Thas(TK) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Prince_Kael&apos;Thas(TK)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(MH)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Rage_Winterchill(MH) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Rage_Winterchill(MH)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(BT)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(25) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(25)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_5"/>
+        <rdfs:comment>Located in Zangarmarsh, contains tier 5 gear</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(SSC) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(SSC)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Attunement_Requirements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Sha&apos;tar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Sha&apos;tar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Reputation_Faction"/>
+        <rdfs:comment>Located in Netherstorm</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shadow_Labyrinth(Heroic) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shadow_Labyrinth(Heroic)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(TK)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Arcatraz(Heroic) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Arcatraz(Heroic)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(TK)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(25) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(25)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_5"/>
+        <rdfs:comment>Located in Netherstorm, contains tier 5 gear</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(TK) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(TK)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Attunement_Requirements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Shattered_Halls(Heroic) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Shattered_Halls(Heroic)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(TK)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Slave_Pens(Heroic) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Slave_Pens(Heroic)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(SSC)"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Anetheron"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Archimonde"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Azgalor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Rage_Winterchill"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Kaz&apos;rogal"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Attunement_Requirements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Raids"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Reputation_Faction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Zones"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Auchenai_Crypts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mana_Tombs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Sethekk_Halls"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shadow_Labyrinth"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Azeroth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Caverns_of_Time"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Deadwind_Pass"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Outlands"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Morass"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shadow_Labyrinth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Arcatraz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Steamvaults"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Blades_Edge_Mountains"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Caverns_of_Time"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Deadwind_Pass"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Hellfire_Peninsula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Netherstorm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Outlands"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shadowmoon_Valley"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Terrokar_Forrest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Zangarmarsh"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Blades_Edge_Mountains"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Caverns_of_Time"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Deadwind_Pass"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Hellfire_Peninsula"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Netherstorm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shadowmoon_Valley"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Terrokar_Forrest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Zangarmarsh"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Cenarion_Expedition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Keepers_Of_Time"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Lower_City"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Honor_Hold/Thrallmar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Sha&apos;tar"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul_The_Dragonkiller"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Nightbane(KZ)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Slave_Pens(Heroic)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gurtogg_Bloodboil"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Illidan_Stormrage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mother_Shahraz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Reliquary_of_Souls"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shade_of_Akama"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Supremus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Teron_Gorefiend"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Illidari_Council"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#High_Warlord_Naj&apos;entus"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Hellfire_Ramparts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Blood_Furnace"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Shattered_Halls"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#High_Astromancer_Solarian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Void_Reaver"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#A&apos;lar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Kael&apos;thas_Sunstrider"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shadow_Labyrinth(Heroic)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Arcatraz(Heroic)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Shattered_Halls(Heroic)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Shadow_Labyrinth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Arcatraz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Steamvaults"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Arcatraz"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Botanica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Mechanar"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Slave_Pens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Steamvaults"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Underbog"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon&apos;s_Lair(25)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(25)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Tier_6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(25)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Al&apos;ar(TK)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Fathom-Lord_Karathress(SSC)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Rage_Winterchill(MH)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(25)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(BT)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(KZ)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(MH)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(BT)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(KZ)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(MH)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(SSC)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Black_Temple(BT)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(KZ)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(MH)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(SSC)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(TK)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon&apos;s_Lair(25)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Mount_Hyjal(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(25)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(25)"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Gruul&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Karazhan(10)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Magtheridon&apos;s_Lair(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#Serpentshrine_Cavern(25)"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/brett/ontologies/2018/2/untitled-ontology-3#The_Eye(25)"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
